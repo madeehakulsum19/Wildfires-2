@@ -1,1 +1,223 @@
-# Wildfires-2
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Wildfires</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+background:#f4f7f9;
+color:#333;
+line-height:1.7;
+}
+
+header{
+background:linear-gradient(135deg,#b71c1c,#ff5722);
+color:white;
+padding:60px 20px;
+text-align:center;
+}
+
+header h1{
+font-size:3rem;
+margin-bottom:10px;
+}
+
+header p{
+font-size:1.2rem;
+}
+
+nav{
+background:#222;
+position:sticky;
+top:0;
+z-index:100;
+}
+
+nav ul{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+list-style:none;
+}
+
+nav li{
+margin:10px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+padding:10px 18px;
+border-radius:6px;
+transition:.3s;
+}
+
+nav a:hover{
+background:#ff5722;
+}
+
+section{
+padding:60px 10%;
+}
+
+h2{
+color:#b71c1c;
+margin-bottom:20px;
+font-size:2rem;
+}
+
+.card{
+background:white;
+padding:25px;
+margin:20px 0;
+border-radius:12px;
+box-shadow:0 8px 20px rgba(0,0,0,.1);
+}
+
+.highlight{
+background:#fff8e1;
+padding:20px;
+border-left:6px solid orange;
+margin-top:20px;
+}
+
+.bottom-banner {
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.bottom-banner span {
+    width: 30%;
+}
+
+.white-section {
+    background: white;
+    color: black;
+    padding: 80px 40px;
+    min-height: 100vh;
+}
+
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<h1>Wildfires</h1>
+
+<p>FlameOFF • AAC Panels • Fire Parks • SuperClear 45</p>
+
+</header>
+
+
+
+<nav>
+
+<ul>
+
+<li><a href="index.html">Problem</a></li>
+
+<li><a href="page1.html">FlameOFF</a></li>
+
+<li><a href="page2.html">AAC Panels</a></li>
+
+<li><a href="page3.html">Fire Parks</a></li>
+
+<li><a href="page4.html">SuperClear 45</a></li>
+
+</ul>
+
+</nav>
+
+
+
+<section>
+
+
+<h2>🔥 The Wildfire Problem</h2>
+
+
+<div class="card">
+
+
+<p>
+
+Did you know that modern wildfires can become so hot that they create their own weather systems? These giant smoke clouds generate lightning, causing new fires miles away.
+
+</p>
+
+
+<br>
+
+
+<p>
+
+Wildfires have become a growing danger in Cupertino during the past 15 years. Homes burn quickly, families have little time to escape, and fires spread from house to house.
+
+</p>
+
+
+<br>
+
+
+<p>
+
+We have to focus on one important question:
+
+</p>
+
+
+
+<div class="highlight">
+
+<h3>
+
+How can we make homes and neighborhoods much safer during wildfires?
+
+</h3>
+
+</div>
+
+
+
+</div>
+
+
+
+</section>
+
+
+ <div class="bottom-banner">
+        <span>Over two thousand homes are destroyed per year because of wildfires</span>
+        <span>85% of wildfires are caused by humans</span>
+        <span>7.5 million acres is lost because of wildfires</span>
+    </div>
+
+
+
+</body>
+
